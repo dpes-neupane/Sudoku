@@ -7,3 +7,8 @@ To visualize the solver, the __board.py__ will let you visualize the board
 
 And the __pygame__ module must be installed as well. 
 
+Before:
+![Before image](/images/before.png)
+
+After:
+![After image](/images/after.png)
