@@ -59,7 +59,7 @@ def marker(board):
                 return i, j
     return None
 
-marker(b)
+
 
 def solve(b):
             find = marker(b)    
@@ -69,14 +69,13 @@ def solve(b):
                 row, column = find
             
             for i in range(1, 10):
-                    print(f'i = {i}')
-                    print(f'row={row},c={column}')
+                    
                     
                     if isUnique(i, b, row, column):
                         b[row][column] = i
-                        print(f'b={b[row][column]}')
+                        
                         if solve(b):
-                            print(f'before={b[row][column]}')
+                            
                             return True
                         b[row][column] = 0
             return False
@@ -85,13 +84,13 @@ def solve(b):
                
                    
                 
-            
-    
-solve(b)
-print(np.array(b))    
+def main():
+    solve(b)
+    print(np.array(b))    
                 
-                    
-                        
+
+if __name__ == "__main__":
+    main()                 
                         
                     
                 
