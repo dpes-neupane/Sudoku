@@ -67,6 +67,7 @@ WINDOW_HEIGHT = 605
 
 
 pygame.init()
+pygame.display.set_caption("SODOKU SOLVER USING BACKTRACKING")
 myfont = pygame.font.SysFont('Comic Sans MS', 30)
 
 
