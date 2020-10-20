@@ -43,6 +43,7 @@ def solve(b):
             return False
 
 def draw():
+    #coordinates for the rectangles
     x = 30
     y = 30
     for row in range(9):
@@ -76,15 +77,11 @@ run = True
 clock = pygame.time.Clock()
 
 
-color_inactive = pygame.Color('lightskyblue3')
-color_active = pygame.Color('dodgerblue2')
-color = color_inactive
-active = False
-text = ''
+
 
 
 while run:
-    #coordinates for the rectangles
+    
     
 
     for event in pygame.event.get():
